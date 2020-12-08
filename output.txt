@@ -1,0 +1,158 @@
+commit 652a04a536a70834cb350f664a01a6398500e384
+Author: Astarter <gbh7788280758@126.com>
+Date:   Fri Dec 4 12:26:31 2020 -0800
+
+    Update docuemnt for new changes in cow
+
+commit 6cd3ae8c45fefa6b3e60c7843730396f414e0cd5
+Author: Astarter <gbh7788280758@126.com>
+Date:   Fri Dec 4 12:13:14 2020 -0800
+
+    update code for cow and livestock
+
+commit 4f91e7e4f06ca6ed0d31c8a976dba623f577ce9c
+Author: VicensPaneque <vicenspaneque@gmail.com>
+Date:   Wed Dec 2 17:28:00 2020 -0600
+
+    Cat, test and documentation update
+
+commit db506424e5bd0081196986eb05e0a87b2c1f1c1f
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Sun Nov 29 11:33:11 2020 -0600
+
+    Update Animals_documentation.md
+
+commit 27257a04156dca81be847fceed9578bbb497c462
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Sun Nov 29 11:32:42 2020 -0600
+
+    Update Animals_documentation.md
+
+commit a978aedc37129b4fb828fcd32da80887720a6015
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Sun Nov 29 11:31:42 2020 -0600
+
+    Update Animals_documentation.md
+
+commit 3461b9d79f1e8af63c88fe70309f0bcb0152b11d
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Sun Nov 29 11:28:32 2020 -0600
+
+    Update Animals_documentation.md
+
+commit 80f396a2229cd311302351d76cda750759d02c5d
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Sun Nov 29 11:27:43 2020 -0600
+
+    Update README.md
+
+commit 5a8aa3cfec07d38ab456b19fd6effc913bfe4715
+Author: VicensPaneque <vicenspaneque@gmail.com>
+Date:   Sun Nov 29 11:25:43 2020 -0600
+
+    Adding documentation.md
+
+commit a7dd5ccda36691bfc6c7a1ccf099ecc1507865ed
+Author: VicensPaneque <vicenspaneque@gmail.com>
+Date:   Fri Nov 27 15:23:46 2020 -0600
+
+    adding pdf
+
+commit e1af3eaf74238a376d0070653060b32584fc41f1
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Fri Nov 27 15:15:51 2020 -0600
+
+    Update README.md
+
+commit 788ba3300d9ff61527cd3fac06964852acf943c8
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Fri Nov 27 15:10:05 2020 -0600
+
+    Update README.md
+
+commit 55eb99ba46ed8297d3186dd0a99cc7d7cb9b1086
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Fri Nov 27 15:08:10 2020 -0600
+
+    Update README.md
+
+commit 580e8432242a2316130c4f134105a3e37814dc4d
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Fri Nov 27 15:07:15 2020 -0600
+
+    Update lab2.md
+
+commit 5fb0e42f83e6a7b84443d98c8f1c5787d8ac4ccf
+Author: Astarter <gbh7788280758@126.com>
+Date:   Wed Nov 25 15:29:15 2020 -0800
+
+    Update test.py
+
+commit 0e3f1332719ce5c717c58608226379a9ea080807
+Author: Astarter <gbh7788280758@126.com>
+Date:   Wed Nov 25 15:28:39 2020 -0800
+
+    Put the .py files together and complete the test.py
+
+commit 69b6b34bb7a3484833da9c627ba0a9117b762028
+Merge: dcb369b fac1ba5
+Author: Astarter <gbh7788280758@126.com>
+Date:   Wed Nov 25 14:59:23 2020 -0800
+
+    Merge branch 'master' of https://github.com/Astarter/DATA533-lab2
+
+commit dcb369b763fa642a06b4728b8fa89bef0ab9a89d
+Author: Astarter <gbh7788280758@126.com>
+Date:   Wed Nov 25 14:59:03 2020 -0800
+
+    subpackage 2
+
+commit fac1ba520b8a6ed9c0b345519ee87eefb69aa942
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Wed Nov 25 16:58:32 2020 -0600
+
+    Update README.md
+
+commit abd2b0ec169dc64d118fea48fe952d7c53ae1b92
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Wed Nov 25 16:57:55 2020 -0600
+
+    Update README.md
+
+commit 8cd8ce399626adb5f47eec7b159afe4ed7f1314e
+Author: VicensPaneque <vicenspaneque@gmail.com>
+Date:   Wed Nov 25 16:50:34 2020 -0600
+
+    Modifications to lab2.md, README.md, and pet_anymals.ipynb with pet and cat class and test code
+
+commit 6314cea2539f394a725304bd200757cb964d5779
+Author: Astarter <gbh7788280758@126.com>
+Date:   Wed Nov 25 11:14:53 2020 -0800
+
+    Completed the package structure
+    
+    It seems like there are no specific requirement on how fancy our method should be. So the methods that I have designed are very simple. :)
+
+commit ab3af196744550134c1e65bc0a6a020e7add5aff
+Author: Astarter <gbh7788280758@126.com>
+Date:   Wed Nov 25 10:51:33 2020 -0800
+
+    Update lab2.md
+
+commit a288140ec890a3cdb02f08c3c0040d74117ca416
+Author: Vicens <53487686+VicensPaneque@users.noreply.github.com>
+Date:   Wed Nov 25 12:05:11 2020 -0600
+
+    Create README.md
+
+commit 2aef097c056a133d7d56b786f37e0aa47b70e85d
+Author: VicensPaneque <vicenspaneque@gmail.com>
+Date:   Wed Nov 25 12:01:09 2020 -0600
+
+    Test
+
+commit bc72ac78bdbbe2de8830f55b3a707a2d258a6e00
+Author: Astarter <gbh7788280758@126.com>
+Date:   Wed Nov 25 09:51:17 2020 -0800
+
+    Create lab2.md
