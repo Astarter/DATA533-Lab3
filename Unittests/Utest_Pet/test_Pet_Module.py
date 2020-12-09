@@ -3,6 +3,7 @@ import unittest
 from unittest import mock
 import io
 
+
 class test_Pet(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -11,10 +12,10 @@ class test_Pet(unittest.TestCase):
     def setUp(self):
         self.pet1 = Pet("Garfield")
         self.pet2 = Pet("Colonel Meow")
-        
+
     def tearDown(self):
         print("End of test case")
-        
+
     @classmethod
     def tearDownClass(cls):
         print("End of test class")

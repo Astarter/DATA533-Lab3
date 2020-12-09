@@ -1,5 +1,8 @@
 from Animals.pet_animals.cat import *
 import unittest
+from unittest import mock
+import io
+
 
 class test_Cat(unittest.TestCase):
     @classmethod
@@ -9,10 +12,10 @@ class test_Cat(unittest.TestCase):
     def setUp(self):
         self.cat1 = Cat("Garfield", "orange")
         self.cat2 = Cat("Colonel Meow", "black")
-        
+
     def tearDown(self):
         print("End of test case")
-        
+
     @classmethod
     def tearDownClass(cls):
         print("End of test class")
@@ -26,7 +29,6 @@ class test_Cat(unittest.TestCase):
         assert fake_stdout.getvalue() == "Meow meow prrrrrr\n" \
                                          "Meow meow prrrrrr\n"
 
-
     def test_describe(self):
         self.assertEqual(self.cat1.describe("lazy"), None)
         self.assertEqual(self.cat2.describe("majestic"), None)
@@ -38,9 +40,9 @@ class test_Cat(unittest.TestCase):
 
     def test_feed(self):
         self.cat1.feed(30),
-        self.assertEqual(self.cat1.weight, 6.0+30*0.1)
+        self.assertEqual(self.cat1.weight, 6.0 + 30 * 0.1)
         self.cat2.feed(61)
-        self.assertEqual(self.cat2.weight, 6.0+61*0.1)
+        self.assertEqual(self.cat2.weight, 6.0 + 61 * 0.1)
 
     def test_setWeight(self):
         self.cat1.setWeight(6)
@@ -49,11 +51,17 @@ class test_Cat(unittest.TestCase):
         self.assertEqual(self.cat2.weight, 3)
 
     def test_getWeight(self):
-        self.assertEqual(self.cat1.getWeight(), "Garfield weights 6.0 kg.")
-        self.assertEqual(self.cat2.getWeight(), "Colonel Meow weights 6.0 kg.")
+        self.assertEqual(self.cat1.getWeight(), None)
+        self.assertEqual(self.cat2.getWeight(), None)
+
+        with mock.patch('sys.stdout', new=io.StringIO()) as fake_stdout:
+            self.cat1.getWeight()
+            self.cat2.getWeight()
+        assert fake_stdout.getvalue() == "Garfield weights 6.0 kg.\n" \
+                                         "Colonel Meow weights 6.0 kg.\n"
 
     def test_on_a_diet(self):
         self.cat1.on_a_diet(2)
         self.assertEqual(self.cat1.weight, 4)
-        self.catt2.on_a_diet(3)
+        self.cat2.on_a_diet(3)
         self.assertEqual(self.cat2.weight, 3)

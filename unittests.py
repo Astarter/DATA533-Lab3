@@ -17,9 +17,8 @@ def Animal_testsuite():
     suite.addTest(unittest.makeSuite(test_livestock))
     suite.addTest(unittest.makeSuite(test_livestock))
 
-    # Fix the tests and this should run without any failures.
-    # suite.addTest(unittest.makeSuite(test_Pet))
-    # suite.addTest(unittest.makeSuite(test_Cat))
+    suite.addTest(unittest.makeSuite(test_Pet))
+    suite.addTest(unittest.makeSuite(test_Cat))
     runner = unittest.TextTestRunner()
     print(runner.run(suite))
 
