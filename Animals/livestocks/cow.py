@@ -42,4 +42,4 @@ class Cow(Livestock):
 
     def display(self):
         Livestock.display(self)
-        print("Price: $%.2f\n Weight: %.2f\n" % (self.price, self.weight))
+        print("Price: $%.2f\nWeight: %.2f\n" % (self.price, self.weight))

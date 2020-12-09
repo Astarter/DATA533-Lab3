@@ -33,6 +33,7 @@ c2.intoduce()
 c2.makeSound()
 c2.display()
 
+c2.eat(-10)
 c2.eat(2000)
 c2.eat(100)
 print("The weight of the cow is %.2f kgs" % c2.getWeight())
